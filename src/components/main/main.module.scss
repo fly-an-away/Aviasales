@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  grid-template-rows: 5vh auto;
+  max-width: 500px;
+}
+
+@media (max-width: 425px) {
+  .main {
+    grid-template-rows: 4vh auto;
+    gap: 12px;
+  }
+}
